@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Robot Combat Simulator</title>
+    
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+  
+
+    <canvas id="game-canvas"></canvas>
+
+    <div id="controls-panel">
+    <h3>Controls</h3>
+    <p>— WASD to Move —</p>
+    <p>— Spacebar to Attack —</p>
+    <p>— Mouse to Pan/Zoom Arena (If enabled) —</p>
+</div>
+
+    <script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+  }
+}
+</script>
+    <script type="module" src="logic_script.js"></script>
+</body>
+</html>
+ 
